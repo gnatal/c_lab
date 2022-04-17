@@ -1,6 +1,21 @@
-typedef struct Data {
+typedef struct Data
+{
     int integer;
-    char* text;
+    char *text;
     double numeric;
-    struct Data* pointer;
+    struct Data *pointer;
 } Data;
+
+typedef struct definedData
+{
+    int integer;
+    char *text;
+    double numeric;
+} definedData;
+
+typedef struct TreeNode
+{
+    definedData data;
+    struct TreeNode *left;
+    struct TreeNode *right;
+};

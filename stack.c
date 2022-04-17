@@ -22,6 +22,8 @@ Data *push(Data *stack)
 Data *pop(Data **stack)
 {
     Data *top = *stack;
+    free(top);
+    top = NULL;
     *stack = (*stack)->pointer;
     return top;
 }
