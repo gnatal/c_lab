@@ -18,4 +18,4 @@ typedef struct TreeNode
     definedData data;
     struct TreeNode *left;
     struct TreeNode *right;
-};
+} TreeNode;
