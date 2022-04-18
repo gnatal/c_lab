@@ -1,3 +1,6 @@
+#ifndef DataStructure_H
+#define DataStructure_H
+
 typedef struct Data
 {
     int integer;
@@ -19,3 +22,5 @@ typedef struct TreeNode
     struct TreeNode *left;
     struct TreeNode *right;
 } TreeNode;
+
+#endif
